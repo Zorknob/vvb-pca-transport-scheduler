@@ -78,10 +78,12 @@ The guiding principle of this investigation came from Scott's surveying practice
 *Personal field notes — November 3, 2026*
 
 A year or so ago I was playing with a formula:
+
 $$
-Z_0 \;=\; \lim_{\Delta \to 0}\;\sum_{i=1}^{n}\; \frac{\vec P_i \cdot \vec R_i}{D_i}
+Z_0 = \lim_{\Delta \to 0} \sum_{i=1}^{n} \frac{\vec P_i \cdot \vec R_i}{D_i}
 $$
-,which I had named a Vortexic Section.
+
+which I had named a Vortexic Section.
 
 I imagined using this geometery (which i thought it was at the time) to make a data flow based on it.
 
