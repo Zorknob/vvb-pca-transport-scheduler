@@ -39,9 +39,9 @@ $$
 R(z)=R_0e^{-\beta\max(0,z)}
 $$
 
-This distinction matters below \$z=0$). The analytical construction permits the radius to increase beyond \$R_0\$, while the implemented construction does not.
+This distinction matters below $z=0$. The analytical construction permits the radius to increase beyond $R_0$, while the implemented construction does not.
 
-For channels separated by 8 units, the analytical kiss calculation identifies an elevation near \$-1.598$). At that elevation, however, the implemented radius remains 3 units, leaving a 2-unit gap between the cross-sectional boundaries.
+For channels separated by 8 units, the analytical kiss calculation identifies an elevation near $-1.598$. At that elevation, however, the implemented radius remains 3 units, leaving a 2-unit gap between the cross-sectional boundaries.
 
 The investigation also identified a discrete elevation structure associated with the simulator's half-turn increment:
 
