@@ -29,15 +29,15 @@ The most significant finding was a discrepancy between two radius constructions.
 
 The analytical kiss-height calculation uses an unrestricted exponential radius:
 
-\[
+$
 R(z)=R_0e^{-\beta z}
-\]
+$
 
 The implemented geometry uses:
 
-\[
+$
 R(z)=R_0e^{-\beta\max(0,z)}
-\]
+$
 
 This distinction matters below \(z=0\). The analytical construction permits the radius to increase beyond \(R_0\), while the implemented construction does not.
 
@@ -45,9 +45,9 @@ For channels separated by 8 units, the analytical kiss calculation identifies an
 
 The investigation also identified a discrete elevation structure associated with the simulator's half-turn increment:
 
-\[
+$
 \Delta z=\frac{\pi}{k}\approx8.976
-\]
+$
 
 All 20 recorded transfers aligned with the proposed tier references, and the calculated axial backtracking vanished when those local references replaced the original global kiss assumption.
 
@@ -78,9 +78,9 @@ The guiding principle of this investigation came from Scott's surveying practice
 *Personal field notes — November 3, 2026*
 
 A year or so ago I was playing with a formula:
-$$
+$
   Z_0 \;=\; \lim_{\Delta \to 0}\;\sum_{i=1}^{n}\; \frac{\vec P_i \cdot \vec R_i}{D_i},
-$$
+$
 which I had named a Vortexic Section.
 
 I imagined using this geometery (which i thought it was at the time) to make a data flow based on it.
